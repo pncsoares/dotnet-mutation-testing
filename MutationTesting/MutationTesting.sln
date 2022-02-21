@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutationTesting", "MutationTesting\MutationTesting.csproj", "{ADEF8BFF-C0D0-4A50-A9A3-35C95BBECD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutationTesting.Tests", "MutationTesting.Tests\MutationTesting.Tests.csproj", "{7B8C9F05-38F4-492E-A3A1-D6D119B96635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADEF8BFF-C0D0-4A50-A9A3-35C95BBECD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEF8BFF-C0D0-4A50-A9A3-35C95BBECD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEF8BFF-C0D0-4A50-A9A3-35C95BBECD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEF8BFF-C0D0-4A50-A9A3-35C95BBECD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8C9F05-38F4-492E-A3A1-D6D119B96635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8C9F05-38F4-492E-A3A1-D6D119B96635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8C9F05-38F4-492E-A3A1-D6D119B96635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8C9F05-38F4-492E-A3A1-D6D119B96635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
