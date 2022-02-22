@@ -2,7 +2,7 @@
 
 This repository aims to demonstrate how the tests that we create, sometimes, means nothing, even if we cover all of our source code with tests.
 
-[How mutation tests improve our tests 📄](/MutationTesting/MutationTesting.Tests/README.md)
+[How mutation tests improved our tests 📄](/MutationTesting/MutationTesting.Tests/README.md)
 
 # Technologies
 
