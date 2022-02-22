@@ -6,6 +6,8 @@ And if we go further and analise the tests coverage:
 
 ![Source Code Coverage](../../public/source-code-coverage.jpg)
 
+![Source Code Coverage Result](../../public/source-code-coverage-result.jpg)
+
 We can see that we got 100% coverage which seems perfect...but it doesn't mean that our code is bullet proof nor our tests well done!
 
 > You must discard the coverage for the `MutationTesting.Tests` project because we don't want to cover our tests but our source code.
