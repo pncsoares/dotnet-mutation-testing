@@ -2,7 +2,7 @@ using System;
 using FluentAssertions;
 using Xunit;
 
-namespace MutationTesting.Tests;
+namespace MutationTesting.Tests.BadAndWeakTests;
 
 public class CalculatorTests
 {
@@ -19,7 +19,6 @@ public class CalculatorTests
     
     [Theory]
     [InlineData(0, 5, 5)]
-    [InlineData(5, 10, 5)]
     public void Test_Subtract(int expected, int minuend, int subtrahend)
     {
         var result = _sut.Subtract(minuend, subtrahend);
@@ -29,7 +28,6 @@ public class CalculatorTests
     
     [Theory]
     [InlineData(1, 1, 1)]
-    [InlineData(6, 3, 2)]
     public void Test_Multiply(int expected, int firstMultiplicand, int secondMultiplicand)
     {
         var result = _sut.Multiply(firstMultiplicand, secondMultiplicand);
@@ -39,8 +37,6 @@ public class CalculatorTests
 
     [Theory]
     [InlineData(1, 0, 1, 1)]
-    [InlineData(2, 0, 4, 2)]
-    [InlineData(2, 1, 5, 2)]
     public void Test_Divide(int expected, int remainder, int dividend, int quotient)
     {
         var result = _sut.Divide(dividend, quotient);

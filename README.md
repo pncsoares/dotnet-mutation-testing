@@ -2,10 +2,7 @@
 
 This repository aims to demonstrate how the tests that we create, sometimes, means nothing, even if we cover all of our source code with tests.
 
-<!-- | Functionalities |  |
-| -- | -- |
-| xUnit functionalities | [Go to detail 📄](/xUnitBasics/xUnitBasics.Tests/README.md) |
-| xUnit tests context | [Go to detail 📄](/xUnitBasics/xUnitBasics.Tests/GuidGeneratorTests/TestContextAcrossMultipleClasses/README.md) | -->
+[How mutation tests improve our tests 📄](/MutationTesting/MutationTesting.Tests/README.md)
 
 # Technologies
 
@@ -13,7 +10,7 @@ This repository aims to demonstrate how the tests that we create, sometimes, mea
 - [.Net CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/)
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [xUnit](https://xunit.net)
-- [Stryker Mutator](https://stryker-mutator.io)
+- [Stryker Mutator](https://stryker-mutator.io/docs/stryker-net/Introduction)
 
 # Setup
 
